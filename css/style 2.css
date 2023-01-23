@@ -1,11 +1,8 @@
-<html>
-<head>
-<style>
 p {
-  color: green;
-  text-indent: 30px;
-  text-transform: uppercase;
+    color: rgb(0, 128, 62);
+    text-indent: 30px;
+  }
+p2 {
+        color: navy;
+        text-indent: 30px;
 }
-</style>
-</head>
-<body>
