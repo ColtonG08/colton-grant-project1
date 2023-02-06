@@ -48,3 +48,54 @@ p {
 
   /*CSS syntax for an ID */
   /* #secondpara {} */
+
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: :center;
+    align-items: baseline;
+    background-color: green;
+}
+
+.flex-container > div {
+    background-color: lightgray;
+    /* width: 80%; */
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    line-height: 75px;
+    font-size: 25px; 
+}
+
+#flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(197, 255, 236);
+  height: 300px;
+  width: 250px;
+}
+
+#flex-container > div {
+  flex: 1;
+  height: 150px;
+}
+
+#orangeDiv {
+  background-color: rgb(254, 140, 10);
+  overscroll-behavior: contain;
+}
+
+#greenyellowDiv {
+  background-color: rgb(171, 255, 46);
+  overscroll-behavior: contain;
+}
+#pinkDiv {
+  background-color: rgb(255, 205, 213);
+  overscroll-behavior: contain;
+}
+
+#yellowDiv {
+  background-color: rgb(255, 255, 161);
+  overscroll-behavior: contain;
+}
